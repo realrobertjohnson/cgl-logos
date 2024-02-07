@@ -7,15 +7,27 @@ const { board } = miro;
 
 function App() {
   const images = [
-		"azure-synapse-logo.svg",
 		"cooperators-logo.svg",
-		"cooperators-symbol-logo.svg",
+    "cooperators-logo_black.svg",
+    "cooperators-symbol-logo.svg",
+    "cgl-app-icon-black.svg",
+    "cooperators-logo_white.svg",
+    "auto.svg",
+    "home.svg",
+    "community.svg",
 		"cumis-logo.png",
+		"sovgen-logo.png",
+    "onbase_8725_logo_1630320184_7i1ay.svg",
+    "onbase-round-logo.png",
+		"onespan-logo.png",
+    "quadient-inspire.svg",
+    "ServiceNow.svg",
 		"guidewire-logo.svg",
 		"microstrategy-logo.svg",
-		"onespan-logo.png",
 		"salesforce-logo.png",
-		"sovgen-logo.png",
+    "azure-synapse-logo.svg",
+    "placeholder.jpg",
+    "placeholder.jpg",
   ];
 
   const drop = async (e: DropEvent) => {
